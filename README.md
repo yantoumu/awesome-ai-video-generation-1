@@ -7,7 +7,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Models](https://img.shields.io/badge/Video%20Models-106-blue.svg)](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)
+[![Models](https://img.shields.io/badge/Video%20Models-106-blue.svg)](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-ai-video-generation)
 [![Last Updated](https://img.shields.io/badge/Updated-March%202026-green.svg)](#)
 
 **A curated collection of AI video generation models, tools, APIs, and resources.**
@@ -25,9 +25,9 @@
 
 ## 🚀 106 Video Models, One API — Atlas Cloud
 
-> **Tired of juggling multiple API keys?** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation) provides a **unified API** for all 106 video models listed here — Kling, Seedance, Wan, Veo, Hailuo, Vidu, and more. One API key, one endpoint, one billing system. **25% bonus on your first recharge (up to $100).**
+> **Tired of juggling multiple API keys?** [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-ai-video-generation) provides a **unified API** for all 106 video models listed here — Kling, Seedance, Wan, Veo, Hailuo, Vidu, and more. One API key, one endpoint, one billing system. **25% bonus on your first recharge (up to $100).**
 
-> 🔒 **Enterprise-Grade Security** — Atlas Cloud is **SOC I & II Certified** | **HIPAA Compliant** | US-based company with 99.9% uptime SLA.
+> 🔒 **Enterprise-Grade Security** — Atlas Cloud is **SOC I & II Certified** | **HIPAA Compliant** | 99.9% uptime SLA.
 
 > 🎨 **NSFW Whitelist Update** — In addition to Seedance and Kling, the **Vidu series** (Q3-Pro, Q3-Turbo) is now also whitelisted for uncensored content generation on Atlas Cloud.
 
@@ -42,6 +42,7 @@
 - [Veo (Google)](#-veo-google)
 - [Hailuo (MiniMax)](#-hailuo-minimax)
 - [Vidu](#-vidu)
+- [Coming Soon](#-coming-soon)
 - [Use Case Guide](#-use-case-guide)
 - [Quick Start — Unified API](#-quick-start--unified-api)
 - [Prompt Engineering Master Guide](#-prompt-engineering-master-guide)
@@ -78,6 +79,8 @@ The AI video generation landscape in 2026 is dominated by six major providers. H
 | **Hailuo 2.3 Pro** | MiniMax | 1080p | 10s | ✅ | ❌ | ❌ | ❌ | from $0.049/s |
 | **Hailuo 02 Pro** | MiniMax | 1080p | 10s | ✅ | ❌ | ❌ | ❌ | from $0.08/s |
 | **Vidu Q3 Pro** | Vidu | 1080p | 8s | ❌ | ❌ | ❌ | ❌ | from $0.012/s |
+| **Wan 2.7** 🔜 | Alibaba | TBA | TBA | TBA | TBA | TBA | TBA | Coming Soon |
+| **Hailuo 3** 🔜 | MiniMax | TBA | TBA | TBA | TBA | TBA | TBA | Coming Soon |
 
 > *\*NSFW via Atlas Cloud uncensored mode*
 
@@ -85,19 +88,20 @@ The AI video generation landscape in 2026 is dominated by six major providers. H
 
 ### Quick Feature Matrix
 
-| Feature | Kling 3.0 | Seedance v1.5 | Wan 2.6 | Veo 3.1 | Hailuo 2.3 | Vidu Q3 |
-|:--------|:---------:|:-------------:|:-------:|:-------:|:----------:|:-------:|
-| Text-to-Video | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Image-to-Video | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Video-to-Video | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
-| Reference Video | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ |
-| Video Editing | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Start-End Frame | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Avatar/Talking Head | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Motion Control | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Camera Control | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Native Audio | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
-| LoRA Support | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| Feature | Kling 3.0 | Seedance v1.5 | Wan 2.6 | Veo 3.1 | Hailuo 2.3 | Vidu Q3 | Wan 2.7 🔜 | Hailuo 3 🔜 |
+|:--------|:---------:|:-------------:|:-------:|:-------:|:----------:|:-------:|:----------:|:-----------:|
+| Text-to-Video | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Expected | Expected |
+| Image-to-Video | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Expected | Expected |
+| Video-to-Video | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Expected | TBA |
+| Reference Video | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | TBA | TBA |
+| Video Editing | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | TBA | TBA |
+| Start-End Frame | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | TBA | TBA |
+| Avatar/Talking Head | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | TBA | TBA |
+| Motion Control | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | Expected | TBA |
+| Camera Control | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | TBA | TBA |
+| Native Audio | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | Expected | Expected |
+| LoRA Support | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Expected | TBA |
+| Multimodal Fusion | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | TBA | Expected |
 
 ---
 
@@ -233,6 +237,18 @@ Wan is Alibaba's AI video generation model family, offering the best price-perfo
 | Van 2.6 | T2V, I2V | 1080p | 5-15s | Atlas optimized |
 | Van 2.5 | T2V, I2V | 1080p | 5-10s | Atlas optimized |
 
+### 🔜 Coming Soon: Wan 2.7
+
+Alibaba has announced **Wan 2.7**, the next major version of its Wan video generation series, expected in **March 2026**. Based on early reports, Wan 2.7 is expected to bring significant improvements:
+
+- **Longer video duration** — Extended generation length beyond current 15s limit
+- **Higher resolution** — Potential 4K support to match Kling's capabilities
+- **Better motion control** — Enhanced camera and subject motion parameters
+- **Character consistency** — Improved identity preservation across multi-shot sequences
+- **Maintained open-source commitment** — Continuing the Apache 2.0 tradition for base models
+
+> Stay tuned — we'll update this section with full specs, benchmarks, and API availability as soon as Wan 2.7 launches. Follow this repo for updates.
+
 ### Local Deployment
 
 Wan 2.1/2.2 are open-source (Apache 2.0) and can be run locally:
@@ -366,6 +382,17 @@ Hailuo (formerly known as MiniMax Video) offers a solid balance of generation sp
 | Hailuo 02 I2V Std | I2V | 720p | 5-10s | Cheapest animation |
 | Hailuo 02 Fast | T2V, I2V | 720p | 5-6s | Quick drafts |
 
+### 🔜 Coming Soon: Hailuo 3
+
+MiniMax CEO has confirmed that **Hailuo 3** is currently in development, targeting a **H1 2026** release. The next-generation model is expected to feature:
+
+- **Multimodal fusion capabilities** — Deeper integration of text, image, audio, and video understanding in a unified model
+- **Improved generation quality** — Building on Hailuo 2.3's strengths with enhanced visual fidelity
+- **Expected longer duration** — Likely extending beyond the current 10s generation limit
+- **Better audio synchronization** — Enhanced native audio generation capabilities
+
+> Hailuo 3 represents MiniMax's most ambitious video model to date. We'll update with full details, pricing, and API access information upon release.
+
 ### Quick Start
 
 ```python
@@ -454,6 +481,19 @@ print(response.json())
 4. **Day-Night Cycle** — `"[Start: sunrise cityscape] [End: night cityscape] A full day cycle over a metropolitan skyline, changing light, traffic patterns, city lights turning on"`
 
 5. **Reference Style** — `"[Reference: Wes Anderson film clip] Apply symmetrical framing and pastel color palette to a scene of a family dining in a quirky restaurant, centered composition"`
+
+---
+
+## 🔜 Coming Soon
+
+Keeping track of upcoming AI video models announced for 2026:
+
+| Model | Provider | Expected Release | Key Highlights |
+|:------|:---------|:----------------|:---------------|
+| **Wan 2.7** | Alibaba | March 2026 | Longer video, higher resolution, better motion control, character consistency |
+| **Hailuo 3** | MiniMax | H1 2026 | Multimodal fusion capabilities, improved generation quality |
+
+> These models are not yet released. Information is based on official announcements and may change. Star this repo to get notified when they become available on [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-ai-video-generation).
 
 ---
 
@@ -724,9 +764,9 @@ For models that support native audio (Kling 3.0, Seedance v1.5, Wan 2.6, Veo 3, 
 
 ### Developer Tools
 
-- [Atlas Playground](https://www.atlascloud.ai/playground?ref=JPM683) — Test all models in-browser
-- [Video Prompt Generator](https://www.atlascloud.ai/tools/prompt-generator?ref=JPM683) — AI-powered prompt helper
-- [Model Comparison Tool](https://www.atlascloud.ai/compare?ref=JPM683) — Side-by-side model comparison
+- [Atlas Playground](https://www.atlascloud.ai/playground?utm_source=github&utm_campaign=awesome-ai-video-generation) — Test all models in-browser
+- [Video Prompt Generator](https://www.atlascloud.ai/tools/prompt-generator?utm_source=github&utm_campaign=awesome-ai-video-generation) — AI-powered prompt helper
+- [Model Comparison Tool](https://www.atlascloud.ai/compare?utm_source=github&utm_campaign=awesome-ai-video-generation) — Side-by-side model comparison
 
 ---
 
@@ -763,7 +803,7 @@ For models that support native audio (Kling 3.0, Seedance v1.5, Wan 2.6, Veo 3, 
 | $2,000 – $9,999 | 15% |
 | $10,000+ | Custom pricing |
 
-> **🎁 New users get 25% bonus on first recharge (up to $100 bonus).** [Sign up here →](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)
+> **🎁 New users get 25% bonus on first recharge (up to $100 bonus).** [Sign up here →](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-ai-video-generation)
 
 ### Atlas Cloud vs fal.ai Pricing
 
@@ -785,18 +825,18 @@ For models that support native audio (Kling 3.0, Seedance v1.5, Wan 2.6, Veo 3, 
 
 ### Beginner Guides
 
-- [Getting Started with AI Video Generation (2026)](https://www.atlascloud.ai/blog/getting-started?ref=JPM683) — Complete beginner guide
-- [Your First AI Video in 5 Minutes](https://www.atlascloud.ai/blog/first-video?ref=JPM683) — Quick start tutorial
-- [Understanding Video AI Models](https://www.atlascloud.ai/blog/understanding-models?ref=JPM683) — Model architecture basics
-- [Prompt Engineering for Video AI](https://www.atlascloud.ai/blog/prompt-engineering?ref=JPM683) — Write better prompts
+- [Getting Started with AI Video Generation (2026)](https://www.atlascloud.ai/blog/getting-started?utm_source=github&utm_campaign=awesome-ai-video-generation) — Complete beginner guide
+- [Your First AI Video in 5 Minutes](https://www.atlascloud.ai/blog/first-video?utm_source=github&utm_campaign=awesome-ai-video-generation) — Quick start tutorial
+- [Understanding Video AI Models](https://www.atlascloud.ai/blog/understanding-models?utm_source=github&utm_campaign=awesome-ai-video-generation) — Model architecture basics
+- [Prompt Engineering for Video AI](https://www.atlascloud.ai/blog/prompt-engineering?utm_source=github&utm_campaign=awesome-ai-video-generation) — Write better prompts
 
 ### Advanced Techniques
 
-- [Multi-Shot Video Narratives with Kling 3.0](https://www.atlascloud.ai/blog/multi-shot?ref=JPM683) — Create coherent stories
-- [Audio-Synchronized Video with Seedance](https://www.atlascloud.ai/blog/audio-sync?ref=JPM683) — Perfect lip sync
-- [Local Deployment Guide for Wan Models](https://www.atlascloud.ai/blog/local-deploy?ref=JPM683) — Self-hosted setup
-- [LoRA Training for Custom Styles](https://www.atlascloud.ai/blog/lora-training?ref=JPM683) — Train your own styles
-- [Building a Video Generation Pipeline](https://www.atlascloud.ai/blog/pipeline?ref=JPM683) — Production architecture
+- [Multi-Shot Video Narratives with Kling 3.0](https://www.atlascloud.ai/blog/multi-shot?utm_source=github&utm_campaign=awesome-ai-video-generation) — Create coherent stories
+- [Audio-Synchronized Video with Seedance](https://www.atlascloud.ai/blog/audio-sync?utm_source=github&utm_campaign=awesome-ai-video-generation) — Perfect lip sync
+- [Local Deployment Guide for Wan Models](https://www.atlascloud.ai/blog/local-deploy?utm_source=github&utm_campaign=awesome-ai-video-generation) — Self-hosted setup
+- [LoRA Training for Custom Styles](https://www.atlascloud.ai/blog/lora-training?utm_source=github&utm_campaign=awesome-ai-video-generation) — Train your own styles
+- [Building a Video Generation Pipeline](https://www.atlascloud.ai/blog/pipeline?utm_source=github&utm_campaign=awesome-ai-video-generation) — Production architecture
 
 ### YouTube Channels
 
@@ -829,11 +869,11 @@ The "best" depends on your needs:
 
 ### What is the cheapest AI video generation API?
 
-Wan 2.2 Spicy at **from $0.03/s** is the cheapest commercial API available. Wan 2.6 at **from $0.07/s** offers the best quality-to-price ratio. Via [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation), you also get a 25% bonus on first recharge.
+Wan 2.2 Spicy at **from $0.03/s** is the cheapest commercial API available. Wan 2.6 at **from $0.07/s** offers the best quality-to-price ratio. Via [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-ai-video-generation), you also get a 25% bonus on first recharge.
 
 ### How to generate AI video with API?
 
-1. Sign up at [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)
+1. Sign up at [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-ai-video-generation)
 2. Get your API key from the dashboard
 3. Send a POST request with your prompt and model choice
 4. Poll the status endpoint until generation completes
@@ -857,7 +897,7 @@ See the [Quick Start section](#-quick-start--unified-api) for complete code exam
 
 ### What is the best AI video model for NSFW content?
 
-**Wan 2.2 Spicy** is specifically designed for uncensored content at just from $0.03/s. Additionally, [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation) offers an uncensored mode for select premium models like Kling and Seedance, providing higher quality NSFW generation.
+**Wan 2.2 Spicy** is specifically designed for uncensored content at just from $0.03/s. Additionally, [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-ai-video-generation) offers an uncensored mode for select premium models like Kling and Seedance, providing higher quality NSFW generation.
 
 ### How to generate AI video locally?
 
@@ -878,7 +918,7 @@ Atlas Cloud currently supports **106 video models** from 6 providers: Kuaishou (
 ### Is there a free AI video generator?
 
 While most high-quality models require payment, you can:
-1. **Free trial:** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation) offers free credits on signup
+1. **Free trial:** [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-ai-video-generation) offers free credits on signup
 2. **Open source:** Deploy Wan 2.1/2.2 locally for free (hardware costs apply)
 3. **Community:** Use Hugging Face Spaces for basic video generation
 
@@ -912,7 +952,7 @@ Why limit yourself to one model? Atlas Cloud gives you access to every major AI 
 
 <div align="center">
 
-### 👉 [Start Free on Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)
+### 👉 [Start Free on Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-ai-video-generation)
 
 *Join 50,000+ creators and developers using Atlas Cloud*
 
