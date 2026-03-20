@@ -743,7 +743,7 @@ For models that support native audio (Kling 3.0, Seedance v1.5, Wan 2.6, Veo 3, 
 - [ComfyUI-KlingAI](https://github.com/KwaiVGI/ComfyUI-KlingAI) — Official Kling nodes for ComfyUI
 - [ComfyUI-Seedance](https://github.com/bytedance/ComfyUI-Seedance) — Seedance integration
 - [ComfyUI-WanVideo](https://github.com/alibaba/ComfyUI-WanVideo) — Wan model nodes
-- [ComfyUI-AtlasCloud](https://github.com/atlascloud/comfyui-nodes) — Unified Atlas Cloud nodes (all models)
+- [ComfyUI-AtlasCloud](https://github.com/ristponex/comfyui-nodes) — Unified Atlas Cloud nodes (all models)
 - [ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite) — Video processing utilities
 
 ### Workflow Automation
@@ -758,7 +758,7 @@ For models that support native audio (Kling 3.0, Seedance v1.5, Wan 2.6, Veo 3, 
 |:---------|:--------|:----------------|
 | Python | [atlas-python-sdk](https://pypi.org/project/atlas-cloud/) | All 106 models |
 | JavaScript | [atlas-node-sdk](https://www.npmjs.com/package/atlas-cloud) | All 106 models |
-| Go | [atlas-go-sdk](https://github.com/atlascloud/atlas-go) | All 106 models |
+| Go | [atlas-go-sdk](https://github.com/ristponex/atlas-go) | All 106 models |
 | Ruby | [atlas-ruby](https://rubygems.org/gems/atlas-cloud) | All 106 models |
 | PHP | [atlas-php](https://packagist.org/packages/atlas/cloud) | All 106 models |
 

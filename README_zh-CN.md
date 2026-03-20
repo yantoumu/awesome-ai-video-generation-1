@@ -705,7 +705,7 @@ for (const model of models) {
 - [ComfyUI-KlingAI](https://github.com/KwaiVGI/ComfyUI-KlingAI) — Kling 官方 ComfyUI 节点
 - [ComfyUI-Seedance](https://github.com/bytedance/ComfyUI-Seedance) — Seedance 集成
 - [ComfyUI-WanVideo](https://github.com/alibaba/ComfyUI-WanVideo) — Wan 模型节点
-- [ComfyUI-AtlasCloud](https://github.com/atlascloud/comfyui-nodes) — Atlas Cloud 统一节点（所有模型）
+- [ComfyUI-AtlasCloud](https://github.com/ristponex/comfyui-nodes) — Atlas Cloud 统一节点（所有模型）
 - [ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite) — 视频处理工具
 
 ### 工作流自动化
@@ -720,7 +720,7 @@ for (const model of models) {
 |:-----|:---|:--------|
 | Python | [atlas-python-sdk](https://pypi.org/project/atlas-cloud/) | 全部 106 个模型 |
 | JavaScript | [atlas-node-sdk](https://www.npmjs.com/package/atlas-cloud) | 全部 106 个模型 |
-| Go | [atlas-go-sdk](https://github.com/atlascloud/atlas-go) | 全部 106 个模型 |
+| Go | [atlas-go-sdk](https://github.com/ristponex/atlas-go) | 全部 106 个模型 |
 | Ruby | [atlas-ruby](https://rubygems.org/gems/atlas-cloud) | 全部 106 个模型 |
 | PHP | [atlas-php](https://packagist.org/packages/atlas/cloud) | 全部 106 个模型 |
 

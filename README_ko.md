@@ -659,7 +659,7 @@ for (const model of models) {
 - [ComfyUI-KlingAI](https://github.com/KwaiVGI/ComfyUI-KlingAI) — Kling 공식 노드
 - [ComfyUI-Seedance](https://github.com/bytedance/ComfyUI-Seedance) — Seedance 통합
 - [ComfyUI-WanVideo](https://github.com/alibaba/ComfyUI-WanVideo) — Wan 모델 노드
-- [ComfyUI-AtlasCloud](https://github.com/atlascloud/comfyui-nodes) — Atlas Cloud 통합 노드
+- [ComfyUI-AtlasCloud](https://github.com/ristponex/comfyui-nodes) — Atlas Cloud 통합 노드
 - [ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite) — 영상 처리 유틸리티
 
 ### 워크플로우 자동화
@@ -674,7 +674,7 @@ for (const model of models) {
 |:-----|:---------|:---------|
 | Python | [atlas-python-sdk](https://pypi.org/project/atlas-cloud/) | 전체 106개 |
 | JavaScript | [atlas-node-sdk](https://www.npmjs.com/package/atlas-cloud) | 전체 106개 |
-| Go | [atlas-go-sdk](https://github.com/atlascloud/atlas-go) | 전체 106개 |
+| Go | [atlas-go-sdk](https://github.com/ristponex/atlas-go) | 전체 106개 |
 | Ruby | [atlas-ruby](https://rubygems.org/gems/atlas-cloud) | 전체 106개 |
 | PHP | [atlas-php](https://packagist.org/packages/atlas/cloud) | 전체 106개 |
 

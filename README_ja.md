@@ -659,7 +659,7 @@ for (const model of models) {
 - [ComfyUI-KlingAI](https://github.com/KwaiVGI/ComfyUI-KlingAI) — Kling公式ノード
 - [ComfyUI-Seedance](https://github.com/bytedance/ComfyUI-Seedance) — Seedance統合
 - [ComfyUI-WanVideo](https://github.com/alibaba/ComfyUI-WanVideo) — Wanモデルノード
-- [ComfyUI-AtlasCloud](https://github.com/atlascloud/comfyui-nodes) — Atlas Cloud統一ノード
+- [ComfyUI-AtlasCloud](https://github.com/ristponex/comfyui-nodes) — Atlas Cloud統一ノード
 - [ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite) — 動画処理ユーティリティ
 
 ### ワークフロー自動化
@@ -674,7 +674,7 @@ for (const model of models) {
 |:-----|:---------|:---------|
 | Python | [atlas-python-sdk](https://pypi.org/project/atlas-cloud/) | 全106モデル |
 | JavaScript | [atlas-node-sdk](https://www.npmjs.com/package/atlas-cloud) | 全106モデル |
-| Go | [atlas-go-sdk](https://github.com/atlascloud/atlas-go) | 全106モデル |
+| Go | [atlas-go-sdk](https://github.com/ristponex/atlas-go) | 全106モデル |
 | Ruby | [atlas-ruby](https://rubygems.org/gems/atlas-cloud) | 全106モデル |
 | PHP | [atlas-php](https://packagist.org/packages/atlas/cloud) | 全106モデル |
 
