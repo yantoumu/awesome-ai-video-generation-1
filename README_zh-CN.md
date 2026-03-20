@@ -859,7 +859,7 @@ Wan 2.2 Spicy 以 **$0.03/秒起** 的价格是目前最便宜的商业 API。Wa
 
 ### 生成 NSFW 内容最好的 AI 视频模型是什么？
 
-**Wan 2.2 Spicy** 专为无审查内容设计，每次仅需 $0.03。此外，[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation) 为部分高端模型（如 Kling 和 Seedance）提供无审查模式，可以生成更高画质的 NSFW 内容。
+**Wan 2.2 Spicy** 专为无审查内容设计，每秒仅需 $0.03。此外，[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation) 为部分高端模型（如 Kling 和 Seedance）提供无审查模式，可以生成更高画质的 NSFW 内容。
 
 ### 如何在本地生成 AI 视频？
 
