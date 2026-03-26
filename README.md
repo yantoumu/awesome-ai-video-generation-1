@@ -767,6 +767,7 @@ For models that support native audio (Kling 3.0, Seedance v1.5, Wan 2.6, Veo 3, 
 - [Atlas Playground](https://www.atlascloud.ai/playground?utm_source=github&utm_campaign=awesome-ai-video-generation) — Test all models in-browser
 - [Video Prompt Generator](https://www.atlascloud.ai/tools/prompt-generator?utm_source=github&utm_campaign=awesome-ai-video-generation) — AI-powered prompt helper
 - [Model Comparison Tool](https://www.atlascloud.ai/compare?utm_source=github&utm_campaign=awesome-ai-video-generation) — Side-by-side model comparison
+- [PVID](http://pvid.app/) — Free AI video generator aggregating Kling 3.0, Sora 2, Veo 3.1 with image-to-video, text-to-video, and video-to-video support
 
 ---
 
